@@ -1,0 +1,208 @@
+.banner {
+    padding: 58px 0;
+    text-align: center;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.banner h2 {
+    color:#fff;
+    font-size: 50px;
+}
+
+.med-exam-content-name {
+    background-color: #004235;
+    padding: 30px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    height: 100px;
+}
+
+.med-exam-content-name h5 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.med-exam-content-name span i {
+    font-size: 20px;
+}
+
+.med-exam-content-name {
+    padding-left: 20px;
+}
+
+.med-exam-content-name-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.med-exam-content-name-list ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.med-exam-content-name-list ul li a{
+    color: #000;
+    box-shadow: 0 0 5px 1px #8a8a8a;
+    padding: 15px 5px;
+    display: inline-block;
+    transform: scale(.9);
+    transition: .3s;
+}
+.med-exam-content-name-list ul li i {
+    padding-right: 10px;
+    color: #004235;
+}
+
+.subject-name{
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px #efefef;
+    width:90%;
+}
+
+.subject-name >ul{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.subject-name ul li{}
+.subject-name >ul> li> a{    
+    display: flex;
+    padding: 10px;
+    background-color: #004235;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 25px;
+}
+
+.collapsed-icon{
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.collapsed-icon::after {
+    content: "\f13a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.subject-name >ul >li >a[aria-expanded="true"] .collapsed-icon::after {
+    content: "\f139";
+}
+.subject-children{
+    padding-left:20px;
+    padding-top: 10px;
+    margin:0;
+    list-style: none;
+}
+.subject-children li{}
+.subject-children li a{
+    color: #000;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0 0 5px 2px #ccc;
+    padding: 20px 8px;
+    font-size: 18px;
+}
+
+.subject-children li a:hover{
+    /* color:#2ECC71; */
+}
+
+.subject-exam{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px #d4d4d4;
+    padding: 10px;
+}
+
+.block-sample {
+    background-color: #004235;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 82%;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+
+.subject-exam-inner {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.block-sample p{
+    font-size: 28px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+.custom-button{
+    background-color: #007bff;
+    padding: 15px 50px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 0px 0 13px #bbdcff !important;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.custom-button:hover{
+    color: #fff !important;
+}
+
+.med-exam-content-name-list {
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px #024e3f;
+}
+
+.w-75 {
+    width: 92%!important;
+}
+
+.daily-exam .display-4 {
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.daily-exam .subject-children li a{
+    font-size: 18px;
+}
+
+.med-exam-content-name-list ul li a:hover {
+    transform: scale(1);
+    color: #004235;
+}
+
+.block-sample img{    
+    height: 80px;    
+    width: 80px;
+}
+
+.icon-white{
+    color: #fff;
+}
